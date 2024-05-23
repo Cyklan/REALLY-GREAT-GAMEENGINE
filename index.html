@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetroidVania</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overflow: hidden;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      #mouse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="mouse"></div>
+
+    <script type="module" src="/src/main.ts" defer></script>
+  </body>
+</html>
